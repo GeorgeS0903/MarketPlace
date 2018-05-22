@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_70"
+        android:background="#ffffff">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/register_foreground"/>
+        <ImageView
+            android:layout_width="@dimen/dimen_40"
+            android:layout_height="@dimen/dimen_40"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_30"
+            android:src="@drawable/back_btn"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/register_bg"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:layout_marginTop="@dimen/dimen_70"
+        android:layout_marginBottom="@dimen/dimen_30"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_selectproducts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="@dimen/dimen_15"
+                android:text="Select Your Products" />
+            <ImageView
+                android:layout_width="@dimen/dimen_22"
+                android:layout_height="@dimen/dimen_17"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow_down"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_2"
+            android:layout_marginTop="@dimen/dimen_2"
+            android:background="#ff9805"/>
+    </LinearLayout>
+
+</LinearLayout>

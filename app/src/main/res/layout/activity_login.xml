@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dimen_20">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textColor="#ff9805"
+        android:textSize="@dimen/dimen_40"
+        android:text="MARJETOKACE"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_2"
+        android:text="Enter Your Mobile Number"
+        android:textColor="#000"
+        android:textSize="@dimen/dimen_15"/>
+    <EditText
+        android:id="@+id/et_mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_15"
+        android:textColor="#000"
+        android:background="#ffffff"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:background="#ff9805"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_2"
+        android:text="Enter Your Password"
+        android:textColor="#000"
+        android:textSize="@dimen/dimen_15"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_15"
+        android:textColor="#000"
+        android:background="#ffffff"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2"
+        android:background="#ff9805"/>
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:background="@drawable/border"
+        android:textColor="#000"
+        android:textSize="@dimen/dimen_30"
+        android:text="Log in"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:textSize="@dimen/dimen_15"
+        android:textColor="#000"
+        android:text="Forgot Password?"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_30"
+        android:textSize="@dimen/dimen_15"
+        android:textColor="#000"
+        android:text="New user?"
+        />
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:textColor="#000"
+        android:textSize="@dimen/dimen_25"
+        android:text="Create Your Account Free"
+        android:textAlignment="center"
+        android:background="#47474747"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+</LinearLayout>
